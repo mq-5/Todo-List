@@ -1,0 +1,60 @@
+body {
+  font-family: "Signika", sans-serif;
+  background-image: url("img/drawing-pad-1209781_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin: 0 auto;
+  padding: 30px 10px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: white; */
+  border-radius: 20px;
+}
+
+h1 {
+  color: rgb(0, 183, 255);
+  font-family: "Acme", sans-serif;
+  font-size: 60px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 70%;
+}
+
+ol {
+  height: 300px;
+  padding: 0;
+  margin: 10px 30px 20px;
+  overflow-y: scroll;
+}
+li {
+  list-style-type: lower-alpha;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+button.complete {
+  margin-left: auto;
+}
